@@ -1,17 +1,8 @@
-*{
-	margin: 0%;
-	padding: 0;
-	
-	box-sizing: border-box;
-}
-
 body{
 	background-color: rgb(253, 251, 251);
-}
-main{
-	position: absolute;
-	top: 85px;
-
+	position: relative;
+	padding: 0;
+	margin: 0;
 }
 
 #cabecalho{
@@ -31,4 +22,20 @@ main{
 	font-size: 42pt;
 	text-shadow: 5px 5px black;
 }
+#rodape{
+	background-color: cadetblue;
+	
+	width: 100%;
+	margin: 0%;
+	padding: 25px;
+	text-align: center;
+	
+}
 
+#rodape a{
+	font-weight: bold;
+	text-decoration: none;
+	color: darkgreen;
+	font-size: 25pt;
+	
+}
