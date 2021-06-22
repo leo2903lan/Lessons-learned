@@ -15,6 +15,7 @@ main{
 }
 p{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	line-height: 200%;
 	
 }
 aside{
@@ -32,16 +33,19 @@ img{
 
 section .lado-direito{
 	float: right;
-	width: 50%;
+	width: 40%;
 }
 section .lado-esquerdo{
 	float: left;
-	width: 50%;
+	width: 40%;
 }
 .lado-a-lado{
 	display: inline-block;
 }
-
+ .lado-direito, .lado-esquerdo{
+	 padding: 1%;
+	 margin: 1%;
+ }
 
 
 #cabecalho{
