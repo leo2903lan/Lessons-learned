@@ -1,16 +1,34 @@
 *{
-    margin: 0%;
-    padding: 0;
-    text-decoration: none;
-    box-sizing: border-box;
+	margin: 0%;
+	padding: 0;
+	
+	box-sizing: border-box;
 }
 
-body {
-    background-color: rgb(253, 251, 251);
+body{
+	background-color: rgb(253, 251, 251);
+}
+main{
+	position: absolute;
+	top: 85px;
+
 }
 
 #cabecalho{
-    position: fixed;
-    top: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 83px;
+	background-color: slategrey;
+	z-index: 1;
+	padding: 14px;
+
+}
+#titulo{
+	text-align: center;
+	
+	color: azure;
+	font-size: 42pt;
+	text-shadow: 5px 5px black;
 }
 
