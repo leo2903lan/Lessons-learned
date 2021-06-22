@@ -14,7 +14,7 @@ main{
 	border: 2px solid red;	
 }
 p{
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: 'Viaoda Libre', cursive;
 	line-height: 200%;
 	
 }
@@ -45,6 +45,12 @@ section .lado-esquerdo{
  .lado-direito, .lado-esquerdo{
 	 padding: 1%;
 	 margin: 1%;
+ }
+ .links-contatos{
+	 text-align: center;
+	 padding: 10px;
+	 margin: 10px;
+	 fo
  }
 
 
