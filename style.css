@@ -9,8 +9,13 @@ body{
 	margin: 0;
 }
 main{
-	
+	padding: 20px;
+	margin-top: 200px;
 	border: 2px solid red;	
+}
+p{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	
 }
 aside{
 	border: 2px solid  blue;
@@ -44,12 +49,14 @@ section .lado-esquerdo{
 	top: 0;
 	width: 100%;
 	background-color: darkgrey;
+	
 }
 #titulo{
 	text-align: center;
-	
+	font-family: fantasy;
+	font-weight: bold;
 	color: azure;
-	font-size: 42pt;
+	font-size: 52pt;
 	text-shadow: 5px 5px black;
 }
 #rodape{
