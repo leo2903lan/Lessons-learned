@@ -1,22 +1,30 @@
 *{
 	box-sizing: border-box;
-}
-body{
-	width: 100%;
-	margin-top: 50%;
-	background-color: rgb(253, 251, 251);
 	padding: 0;
 	margin: 0;
 }
+body{
+	width: 100%;
+	margin-top: 20.3%;
+	background-color: rgb(253, 251, 251);	
+}
 main{
-	padding: 20px;
-	margin-top: 200px;
+	padding: 0 20px 20px 20px;	
 	border: 2px solid red;	
+}
+nav{
+	border: 5px solid green;
+	margin-bottom: 50px;
+	
+}
+a{
+	margin-left: 2%;
+	
+	text-decoration: none;
 }
 p{
 	font-family: 'Viaoda Libre', cursive;
-	line-height: 200%;
-	
+	line-height: 200%;	
 }
 aside{
 	border: 2px solid  blue;
@@ -25,9 +33,13 @@ article{
 	border: 2px solid  blueviolet;
 }
 ul, ol{
-	border: 2px solid black
+	margin: 30px auto;
+	padding-bottom:20px ;
+	border: 2px solid black;
+	width: 70%;
+	text-align: center;
+	line-height: 170%;
 }
-
 section .lado-direito{
 	float: right;
 	width: 40%;
@@ -49,19 +61,18 @@ section .lado-esquerdo{
 	 margin: 10px;
 	 fo
  }
-
 #minha_foto{
 	width: 40%;
 	box-shadow: 0 0  8px 8px green;
-	
+	margin: 2%;	
 }
 
 #cabecalho{
 	position: fixed;
 	top: 0;
 	width: 100%;
-	background-color: darkgrey;
-	
+	padding: 2%;
+	background-color: darkgrey;	
 }
 #titulo{
 	text-align: center;
@@ -81,7 +92,6 @@ section .lado-esquerdo{
 
 #rodape a{
 	font-weight: bold;
-	text-decoration: none;
 	color: darkgreen;
 	font-size: 25pt;
 }
