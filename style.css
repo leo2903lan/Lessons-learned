@@ -1,97 +1,115 @@
-*{
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
-}
-body{
-	width: 100%;
-	margin-top: 20.3%;
-	background-color: rgb(253, 251, 251);	
-}
-main{
-	padding: 0 20px 20px 20px;	
-	border: 2px solid red;	
-}
-nav{
-	border: 5px solid green;
-	margin-bottom: 50px;
-	
-}
-a{
-	margin-left: 2%;
-	
-	text-decoration: none;
-}
-p{
-	font-family: 'Viaoda Libre', cursive;
-	line-height: 200%;	
-}
-aside{
-	border: 2px solid  blue;
-}
-article{
-	border: 2px solid  blueviolet;
-}
-ul, ol{
-	margin: 30px auto;
-	padding-bottom:20px ;
-	border: 2px solid black;
-	width: 70%;
-	text-align: center;
-	line-height: 170%;
-}
-section .lado-direito{
-	float: right;
-	width: 40%;
-}
-section .lado-esquerdo{
-	float: left;
-	width: 40%;
-}
-.lado-a-lado{
-	display: inline-block;
-}
- .lado-direito, .lado-esquerdo{
-	 padding: 1%;
-	 margin: 1%;
- }
- .links-contatos{
-	 text-align: center;
-	 padding: 10px;
-	 margin: 10px;
-	 fo
- }
-#minha_foto{
-	width: 40%;
-	box-shadow: 0 0  8px 8px green;
-	margin: 2%;	
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-#cabecalho{
-	position: fixed;
-	top: 0;
-	width: 100%;
-	padding: 2%;
-	background-color: darkgrey;	
-}
-#titulo{
-	text-align: center;
-	font-family: fantasy;
-	font-weight: bold;
-	color: azure;
-	font-size: 52pt;
-	text-shadow: 5px 5px black;
-}
-#rodape{
-	border: 2px solid  cadetblue;
-	width: 100%;
-	padding: 25px;
-	text-align: center;
-	
+body {
+  width: 100%;
+  margin-top: 20.3%;
+  background-color: rgb(253, 251, 251);
 }
 
-#rodape a{
-	font-weight: bold;
-	color: darkgreen;
-	font-size: 25pt;
+main {
+  padding: 0 20px 20px 20px;
+  border: 2px solid red;
+}
+
+nav {
+  border: 5px solid green;
+  margin-bottom: 50px;
+
+}
+
+a {
+  margin-left: 2%;
+
+  text-decoration: none;
+}
+
+p {
+  font-family: 'Viaoda Libre', cursive;
+  line-height: 200%;
+}
+
+aside {
+  border: 2px solid blue;
+}
+
+article {
+  border: 2px solid blueviolet;
+}
+
+ul,
+ol {
+  margin: 30px auto;
+  padding-bottom: 20px;
+  border: 2px solid black;
+  width: 70%;
+  text-align: center;
+  line-height: 170%;
+}
+
+section .lado-direito {
+  float: right;
+  width: 40%;
+}
+
+section .lado-esquerdo {
+  float: left;
+  width: 40%;
+}
+
+.lado-a-lado {
+  display: inline-block;
+}
+
+.lado-direito,
+.lado-esquerdo {
+  padding: 1%;
+  margin: 1%;
+}
+
+.links-contatos {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  fo
+}
+
+#minha_foto {
+  width: 40%;
+  box-shadow: 0 0 8px 8px green;
+  margin: 2%;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 2%;
+  background-color: darkgrey;
+}
+
+#titulo {
+  text-align: center;
+  font-family: fantasy;
+  font-weight: bold;
+  color: azure;
+  font-size: 52pt;
+  text-shadow: 5px 5px black;
+}
+
+#rodape {
+  border: 2px solid cadetblue;
+  width: 100%;
+  padding: 25px;
+  text-align: center;
+
+}
+
+#rodape a {
+  font-weight: bold;
+  color: darkgreen;
+  font-size: 25pt;
 }
