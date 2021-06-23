@@ -27,9 +27,6 @@ article{
 ul, ol{
 	border: 2px solid black
 }
-img{
-	border: 2px solid green;
-}
 
 section .lado-direito{
 	float: right;
@@ -53,6 +50,11 @@ section .lado-esquerdo{
 	 fo
  }
 
+#minha_foto{
+	width: 40%;
+	box-shadow: 0 0  8px 8px green;
+	
+}
 
 #cabecalho{
 	position: fixed;
