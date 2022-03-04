@@ -11,24 +11,22 @@ body {
 }
 
 main {
-  padding: 0 20px 20px 20px;
+  padding: 0 20px 20px;
   border: 2px solid red;
 }
 
 nav {
   border: 5px solid green;
   margin-bottom: 50px;
-
 }
 
 a {
   margin-left: 2%;
-
   text-decoration: none;
 }
 
 p {
-  font-family: 'Viaoda Libre', cursive;
+  font-family: Viaoda Libre, cursive;
   line-height: 200%;
 }
 
@@ -40,14 +38,18 @@ article {
   border: 2px solid blueviolet;
 }
 
-ul,
-ol {
+ul , ol {
   margin: 30px auto;
   padding-bottom: 20px;
   border: 2px solid black;
   width: 70%;
   text-align: center;
   line-height: 170%;
+}
+
+.lado-direito , .lado-esquerdo {
+  padding: 1%;
+  margin: 1%;
 }
 
 section .lado-direito {
@@ -64,17 +66,10 @@ section .lado-esquerdo {
   display: inline-block;
 }
 
-.lado-direito,
-.lado-esquerdo {
-  padding: 1%;
-  margin: 1%;
-}
-
 .links-contatos {
   text-align: center;
   padding: 10px;
   margin: 10px;
-  fo
 }
 
 #minha_foto {
@@ -94,7 +89,7 @@ section .lado-esquerdo {
 #titulo {
   text-align: center;
   font-family: fantasy;
-  font-weight: bold;
+  font-weight: 800;
   color: azure;
   font-size: 52pt;
   text-shadow: 5px 5px black;
@@ -102,14 +97,14 @@ section .lado-esquerdo {
 
 #rodape {
   border: 2px solid cadetblue;
+  background-color: darkgreen;
   width: 100%;
   padding: 25px;
   text-align: center;
-
 }
 
 #rodape a {
-  font-weight: bold;
-  color: darkgreen;
+  font-weight: 600;
+  color: white;
   font-size: 25pt;
 }
