@@ -1,6 +1,6 @@
 # Boas vindas ao repositório do projeto Lessons Learned!
 
-Comecei por aqui os detalhes de como estruturar o desenvolvimento de um projeto utilizando repositório, utilizar uma branch específica e realizar o _Pull Request_ para colocar meu código.
+Primeiro projeto desenvolvido na Trybe com detalhes de como estruturar um projeto utilizando repositório, utilizar uma branch específica e realizar o _Pull Request_ para colocar meu código.
 
 ---
 
